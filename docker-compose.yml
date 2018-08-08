@@ -1,7 +1,8 @@
 version: "3"
 services:
     web:
-        image: "yiliao/asp:v1"
+        image: "yiliao/asp:v1"  
+        # the source repo is at https://github.com/yiliaomsft/compose-asp-sql
         ports:
             - "8080:80"
         depends_on:
